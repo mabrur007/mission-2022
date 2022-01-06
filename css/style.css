@@ -90,3 +90,9 @@ h2{
     width: 80%;
     margin-bottom: 40px;
 }
+
+
+/* section five css */
+#sec-five h2{
+    text-align: center;
+}
