@@ -119,3 +119,18 @@ h2{
     box-shadow: 5px 7px 40px gray;
     padding: 20px 40px 20px;
 }
+
+/* footer part css */
+#footer-part{
+    padding: 60px;
+    background-color: #0d0f1b;
+    text-align: center;
+}
+#footer-part h3{
+    color: white;
+    font-size: 24px;
+    font-family: 'Moon Dance', cursive;;
+}
+#footer-part p{
+    text-align: center;
+}
