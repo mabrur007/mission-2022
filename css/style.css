@@ -18,7 +18,7 @@ h2{
 }
 .btn-style{
     text-decoration: none;
-    background: linear-gradient(45deg, #007bff, #80b5ee);
+    background: #007bff;
     padding: 15px 40px;
     line-height: 20px;
     border-radius: 5px;
@@ -55,4 +55,32 @@ h2{
 }
 .sec2-box img{
     width: 40%;
+}
+/* Section three css */
+.sec-three{
+    background-image: url(images/person-4.png);
+    background-repeat: no-repeat;
+    background-position: 0 65%;
+}
+#sec-three h2 {
+    line-height: 20px;
+}
+#sec-three p {
+    width: 75%;
+    margin-bottom: 40px;
+}
+.pd-left-8{
+    padding-left: 8%;
+}
+.pd-left-6{
+    padding-left: 6%;
+}
+.col-s{
+    width: 30%;
+}
+.col-l{
+    width: 65%;
+}
+.col-s img{
+    width: 100%;
 }
