@@ -57,10 +57,7 @@ h2{
     width: 40%;
 }
 /* Section three css */
-.sec-three{
-    background-image: url(images/person-4.png);
-    background-repeat: no-repeat;
-    background-position: 0 65%;
+#sec-three{
 }
 #sec-three h2 {
     line-height: 20px;
@@ -83,4 +80,13 @@ h2{
 }
 .col-s img{
     width: 100%;
+}
+
+/* section four css */
+#sec-four h2{
+    line-height: 20px;
+}
+#sec-four p{
+    width: 80%;
+    margin-bottom: 40px;
 }
