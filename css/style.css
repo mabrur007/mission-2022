@@ -37,11 +37,26 @@ h2{
     width: 60%;
 }
 /* border left style */
-.b-left{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, blue, cyan);
-    border-image-slice: 1;
-    padding-top: 30px;
+.b-left h1{
+    margin-top: 80px;
+}
+.b-left h1::before{
+        content: "";
+        width: 4px;
+        height: 99px;
+        background: #007bff;
+        border-radius: 25px;
+        left: 99px;
+        top: 62px;
+        position: absolute;
+    
+}
+.mb{
+    margin-bottom: 30px;
+    width: 70%;
+}
+.mt{
+    margin-top: 40px;
 }
 /* Section two css */
 #sec-two h2{
