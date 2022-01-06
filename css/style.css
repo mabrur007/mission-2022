@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    text-align: justify;
+    color: #696969;
+}
+h1{
+    font-size: 50px;
+    line-height: 0;
+}
+h2{
+    font-size: 40px;
+}
+.color{
+    color: #007bff;
+}
+.btn-style{
+    text-decoration: none;
+    background: linear-gradient(45deg, #007bff, #80b5ee);
+    padding: 15px 40px;
+    line-height: 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.flex-box{
+    display: flex;
+    margin-bottom: 100px;
+}
+.box-size{
+    width: 50%;
+    padding-left: 8%;
+}
+.box-size img{
+    width: 60%;
+}
+/* border left style */
+.b-left{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+    padding-top: 30px;
+}
